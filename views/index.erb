@@ -1,0 +1,18 @@
+<div style='border: 6px dashed pink'>
+    <% if @visitor == "daryl" %>
+      Oh its you again
+    <% elsif @visitor %>
+        Hello <%= @visitor %>!
+    <% else %>
+      <form action="/hello">
+        My name is <%= @name %>.
+        What's your name?
+        <input type="text" name="name1">
+        <input type="submit">
+      </form>
+    <% end %>
+   <!--  <% if @name %>
+      My name is <%= @name %>
+    <% end %> -->
+     <img src='/images/kitten.png'>
+   </div>

@@ -25,6 +25,6 @@ The code in this repo includes three versions to try and show how interaction ca
  - this method does not work..
  - can't get the data from the form to the URL.. once it reaches the URL the code added will place it on the message on the screen
 
- 3. Via Form data
-  - this method does not work
-  - this uses a post (rather than a get) to send the data, similar issues to above, can't get the form data to the post..
+3. Via Form data
+ - this method does not work
+ - this uses a post (rather than a get) to send the data, similar issues to above, can't get the form data to the post..
